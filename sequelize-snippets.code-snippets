@@ -44,7 +44,7 @@
 						"\t\t}",
 						"\t\tconst { name } = req.body;",
 						"\t\tlet ${2:Modelo_Singular_Minusculo} = await ${1:Modelo_Singular}.findByPk(req.params.id);",
-						"\t\tif (name !== ${2:Modelo_Singular_Minusculo}Old.name) {",
+						"\t\tif (name !== ${2:Modelo_Singular_Minusculo}.name) {",
 								"\t\t\tconst ${2:Modelo_Singular}Exist = await ${1:Modelo_Singular}.findOne({",
 								"\t\t\t\twhere: { name },",
 								"\t\t\t});",
