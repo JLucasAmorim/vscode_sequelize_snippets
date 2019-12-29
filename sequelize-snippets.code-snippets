@@ -83,7 +83,7 @@
 				"\tstatic init(sequelize) {",
 				"\t\tsuper.init(",
 				"\t\t\t{",
-				"\t\t\t\t// Attributes document: Sequelize.STRING,",
+				"\t\t\t\t// Attributes",
 				"\t\t\t\t// document: Sequelize.STRING,",
 				"\t\t\t},",
 				"\t\t\t{",
